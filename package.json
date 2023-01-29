@@ -1,0 +1,15 @@
+{
+  "name": "FinalTestku",
+  "version": "1.0.0",
+  "description": "Tugas terakhir dari Eduwork",
+  "main": "index.js",
+  "author": "Rizky Gunardi",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "12.4.1"
+  },
+  "scripts": {
+    "cyopen": "cypress open",
+    "cyrun": "cypress run"
+  }
+}

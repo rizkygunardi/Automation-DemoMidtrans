@@ -1,0 +1,27 @@
+{
+  "price": [20000, 7000000, 500000, 4000, 14000],
+  "name": ["Budi", "Anissa", "Ridwan", "Risa", "Putri"],
+  "email": [
+    "budi@utomo.com",
+    "anissa@email.com",
+    "ridwan@email.com",
+    "risa@email.com",
+    "putri@email.com"
+  ],
+  "phone": [
+    "081038802421",
+    "081023234556",
+    "081038802421",
+    "08122222222",
+    "081345678239"
+  ],
+  "city": ["Jakarta", "Cimahi", "Jambi", "Yogyakarta", "Palembang"],
+  "address": [
+    "MidPlaza 2, 4th Floor Jl.Jend.Sudirman Kav.10-11",
+    "Jl.Raya Alun-alun kota Cimahi",
+    "Jl.Raya Alun-alun kota Jambi",
+    "Jl.Keraton no.45a",
+    "Jl.Pempek no.233a"
+  ],
+  "postalCode": ["10220", "10023", "14554", "23554", "55678"]
+}
