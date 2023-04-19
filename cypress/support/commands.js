@@ -17,6 +17,7 @@ Cypress.Commands.add("Bio", () => {
     cy.get('[data-reactid=".0.0.1.0.3.0.0.5"]').type(
       "{selectAll}" + postalCode[0]
     );
+    cy.get(".cart-checkout").click();
   });
 });
 
@@ -39,6 +40,7 @@ Cypress.Commands.add("Bio2", () => {
     cy.get('[data-reactid=".0.0.1.0.3.0.0.5"]').type(
       "{selectAll}" + postalCode[1]
     );
+    cy.get(".cart-checkout").click();
   });
 });
 
@@ -61,6 +63,7 @@ Cypress.Commands.add("Bio3", () => {
     cy.get('[data-reactid=".0.0.1.0.3.0.0.5"]').type(
       "{selectAll}" + postalCode[2]
     );
+    cy.get(".cart-checkout").click();
   });
 });
 
@@ -83,6 +86,7 @@ Cypress.Commands.add("Bio4", () => {
     cy.get('[data-reactid=".0.0.1.0.3.0.0.5"]').type(
       "{selectAll}" + postalCode[3]
     );
+    cy.get(".cart-checkout").click();
   });
 });
 
@@ -105,6 +109,7 @@ Cypress.Commands.add("Bio5", () => {
     cy.get('[data-reactid=".0.0.1.0.3.0.0.5"]').type(
       "{selectAll}" + postalCode[4]
     );
+    cy.get(".cart-checkout").click();
   });
 });
 

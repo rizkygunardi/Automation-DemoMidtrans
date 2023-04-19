@@ -9,9 +9,7 @@ describe("Testing e2e Finaltest Eduwork", () => {
   it("Testing TC001 BRI PASS", () => {
     cy.Bio();
     cy.BtnPay();
-    cy.get(
-      ':nth-child(8) > [data-testid="list-item"] > .list-content > .list-payment-logo'
-    ).click();
+    cy.get(':nth-child(3) > [data-testid="list-item"]').click();
     cy.get('[href="#/bank-transfer/bri-va"] > .payment-page-text').click();
     cy.wait(3000);
     cy.get("#vaField").then(($temp) => {
